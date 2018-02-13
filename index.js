@@ -7,7 +7,7 @@ function createPost(){
   pageDiv.innerHTML += pageHTML;
 
   var postTemplate = document.getElementById('post-template');
-  
+
 }
 
 function postComment(){
