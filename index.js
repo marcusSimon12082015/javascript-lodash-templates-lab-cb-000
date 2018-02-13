@@ -3,8 +3,6 @@ function createPost(){
   var pageDiv = document.getElementById('page');
   //debugger;
   var pageFn = _.template(pageTemplate);
-
-
   var pageHTML = pageFn;
   pageDiv.innerHTML += pageHTML;
 }
