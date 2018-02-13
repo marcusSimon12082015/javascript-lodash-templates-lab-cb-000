@@ -6,7 +6,7 @@ function createPost(){
   pageDiv.innerHTML += pageHTML;
 
   //get values from form post
-  
+
 
 }
 
