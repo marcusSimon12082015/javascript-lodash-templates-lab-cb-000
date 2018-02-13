@@ -5,7 +5,7 @@
   </head>
   <body>
     <main>
-      <form onsubmit="createPost" id="post-form">
+      <form onsubmit="createPost();return false;" id="post-form">
         <div class="form-group">
           <label for="postTitle">Title:</label>
           <input type="text" class="form-control" id="postTitle">
@@ -21,7 +21,7 @@
         <input type="submit" class="btn btn-default" value="Create Post">
       </form>
       <div class="page">
-        
+
       </div>
     </main>
     <script src="lodash.min.js"></script>
