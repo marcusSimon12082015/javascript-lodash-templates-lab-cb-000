@@ -6,6 +6,8 @@ function createPost(){
   var pageHTML = pageFn;
   pageDiv.innerHTML += pageHTML;
 
+
+
   var postTemplate = document.getElementById('post-template');
 
 }
