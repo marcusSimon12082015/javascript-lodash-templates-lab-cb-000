@@ -5,6 +5,9 @@ function createPost(){
   var pageHTML = pageFn({'postsTitle': "Matija Posts"});
   pageDiv.innerHTML += pageHTML;
 
+  //get values from form post
+  
+
 }
 
 function postComment(){
