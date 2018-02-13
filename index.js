@@ -4,11 +4,6 @@ function createPost(){
   var pageFn = _.template(pageTemplate);
   var pageHTML = pageFn;
   pageDiv.innerHTML += pageHTML;
-  //debugger;
-
-
-
-  var postTemplate = document.getElementById('post-template');
 
 }
 
