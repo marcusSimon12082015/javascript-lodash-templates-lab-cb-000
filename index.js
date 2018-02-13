@@ -15,7 +15,7 @@ function createPost(){
   var postFunction = _.template(postTemplate);
   var postHTML = postFunction({'postTitle':postTitle,'postBody':postBody,'postAuthor': postAuthor});
   pagePostDiv.innerHTML += postHTML;
-   
+
 
 }
 
